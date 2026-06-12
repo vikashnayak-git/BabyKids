@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="original" rel="stylesheet" href="my_contact.css">
+    <link class="media" rel="stylesheet" href="media_contact.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">BABY Kids</div>
+    <div class="nav">
+        <a href="../Index/index.html">HOME</a>
+        <a href="../Course/my_course.html">COURSE</a>
+        <a href="../About_US/my_about_as.html">ABOUT US</a>
+        <a href="../Services/my_services.html">SERVICES</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <button class="btn1">LESSON</button>
+</header>
+
+<section class="section1">
+    <h1>Contact-us</h1>
+    <h3>Best Education for Baby Kids & Fastest growing Pre-school In Vastral .</h3>
+</section>
+<section class="section2">
+    <div>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="i">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                </td>
+                <td>
+                    <div class="td1">
+                        <h2>Address</h2>
+                        <div>Baby-Kids School,Bhilwara</div>
+                        <div>Raj.(311001)</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="i">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                </td>
+                <td>
+                    <div class="td1">
+                        <h2>Phone</h2>
+                        <div>869-0588-536</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="i">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </td>
+                <td>
+                    <div  class="td1">
+                        <h2>E-mail</h2>
+                        <div>Babykids@gmail.com</diV>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="form">
+        <div class="div1">SEND MESSAGE</div>
+        <form method="post" action="save_contact.php">
+            <input type="text" name="name" placeholder="Full Name"><br><br>
+            <input type="email" name="email" placeholder="E-Mail"><br><br>
+            <textarea id="massage" name="message" placeholder="Message"></textarea>
+            <div class="div">
+                <div class="error">
+                    <div>ERROR for site owner:</div>
+                    <div>Invalid domain for site key</div>
+                </div>
+            </div>
+            <button>Send Now</button>
+        </form>
+    </div>
+</section>
+<footer>
+<div class="footer">
+    <div class="contant">
+        <h3>PHONE SUPPORT</h3>
+        <P>24 houre a day<p>
+        <p><b>+91 8762454634</b></p>
+        <p>Call us anytime for support and help.</p>
+    </div>
+    
+    <div class="contant">
+        <h3>CONNECT WITH US</h3>
+        <p>SOCIAL MEDIA CHANNELS</p>
+        <a class="icon" href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a class="icon" href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a class="icon" href="#"> <i class="fa-brands fa-youtube"></i></a>
+        <a class="icon" href="#"> <i class="fa-brands fa-twitter"></i></a>
+    </div>
+
+    <div class="contant">
+        <h3>NEWSLETTER</h3>
+        <p>Subscribe to get latest updates and offers.</p>
+        <input type="email" placeholder="Enter Your Email">
+        <button type="submit">Subscribe</button>
+    </div>
+</div>
+<hr>
+</footer>
+</body>
+
+<script>
+let media = document.getElementsByClassName("media")[0];
+let original = document.getElementsByClassName("original")[0];
+
+if (window.innerWidth <= 600) {
+    media.disabled = false;
+    original.disabled = true;
+} else {
+    media.disabled = true;
+    original.disabled = false;
+}
+    
+</script>
+
+</html>

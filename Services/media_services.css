@@ -1,0 +1,183 @@
+@media screen and (max-width:600px){
+body {
+    width: 400px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.logo{
+    color: aquamarine;
+    font-size: 30px;
+    font-style: arial;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 18px;
+}
+.btn1{
+    background: rgb(227, 124, 33);
+    padding: 5px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.section01 {
+    width: 105%;
+    position: relative;
+    left: -10px;
+    background-image: url(Images/back2.png);
+    background-size:cover;
+    background-repeat:  no-repeat;
+    color: white;
+}
+.section1{
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgba(16, 17, 18,0.4);
+}
+.section1 p{
+    margin-left: 30px;
+    color: gray;
+}
+.section2 {
+    margin-top: -16px;
+    padding-top: 20px;
+    gap:50px;
+    background-color: rgba(16, 17, 18,0.4);
+    
+}
+.section2 img{
+    height: 300px;
+    width: 400px;
+    margin-left: 0px;
+}
+.section2 h2{
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.div1 div{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.div1 .num{
+    padding:5px 10px 5px 10px;
+    background-color: orange;
+    border-radius: 50px;
+}
+.section3 {
+    padding-top: 10px;
+    text-align: center;
+}
+.section3 p{
+    text-align: justify;
+    color: rgb(35, 214, 142);
+}
+.section4{
+    margin-left: 50px;    
+}
+.section4 .div2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: orangered;
+    width: 170px;
+    height: 300px;
+    border-radius: 20px;
+    padding:20px 30px 20px 30px;
+    position: relative;
+}
+.section4 img{
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    transform: rotate(27deg);
+}
+.section4 img:hover{
+      transform: rotate(0deg);
+}
+.section4 span{
+    padding: 10px;
+    position: relative;
+    top:-19px;
+    background-color: aquamarine;
+}
+.section4 button{
+    position: relative;
+    top: -20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+}
+button:hover {
+    background-color: rgb(191, 153, 229);
+}
+.section4 label{
+    font-size: 20px;
+    background-color: aqua;
+}
+.div2 div{
+    height: 350px;
+    width: 230px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: blueviolet;
+    position: absolute;
+    left: -20px;
+}
+
+.footer{
+    display:grid;
+    width: 100%;
+    background: gray;
+    grid-template-columns:repeat(3,1fr);
+    background: gray;
+    color:white;
+    text-align: center;
+    margin-bottom: -50px;
+    padding-right: 14px ;
+    position: relative;
+    right: 6px;
+       
+}
+.footer p{
+    color:rgb(240, 231, 231);
+}
+.icon {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;    
+}
+.footer input{
+    padding: 10px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.footer button{
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    background:orange;
+}
+.footer button:hover{
+    background-color:blue;
+    color: white;
+}
+hr{
+    border: 3px solid black;
+    width: 110%;
+    position: relative;
+    bottom: -40px;
+    left:-10px;
+}
+}

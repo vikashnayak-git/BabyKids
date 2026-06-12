@@ -1,0 +1,701 @@
+body{
+    margin: 0;
+}
+.header1{
+    background-color:rgba(32, 35, 36, 0.824) ;
+    display: flex;
+    color: rgb(196, 189, 189);
+    align-items: center; 
+    margin-left: 0px;
+    padding: px;
+}
+.nav0{
+    margin-left: 30px;
+    font-size:20px;
+}
+.nav1{
+    margin-left: 100px;
+    font-size:20px;
+}
+.nav3{
+    margin-left: 50px;
+    font-size:20px;
+    height:50px;
+    width: 50px;
+    background: gray;
+}
+#user {
+  position: relative;
+  top:10px;
+  left:5px;
+  margin-left:20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: bisque;
+}
+.nav4{
+    cursor: pointer;
+    border: 1px solid gray;
+    padding-left: 15px;
+    font-size:20px;
+    height:50px;
+    width: 140px;
+    color: bisque;
+    background: gray;
+
+}
+.header2{
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.logo{
+    color: gray;
+    font-size: 30px;
+    margin-right: 200px;
+    font-style: arial;
+}
+
+.a{
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.btn1{
+    cursor: pointer;
+    background: rgb(227, 124, 33);
+    padding: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(74, 74, 239);
+    color: white;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+.prev {
+  left: 0;
+  border-radius: 0 20px 20px 0;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides img{
+    width: 100%;
+    height: 500px;
+}
+.section0{
+    background-color: white;
+    display: flex;
+    height: 400px;
+}
+.area{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    background:rgb(13, 175, 240) ;
+}
+.area p{
+    font-size: 14px;
+    padding: 10px;
+    line-height: 22px;
+    text-align: justify;
+}
+.hours{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    margin-top: 70px;
+    background: orange;
+}
+.day{
+    padding-top:30px;
+    margin-left: 50px;
+    display: flex;
+}
+.time{
+    margin-left: 50px;
+}
+hr{
+    height:2px;
+    border:none;
+    width:200px;
+    background: black;
+}
+.btn2{
+    cursor: pointer;
+    background: rgb(249, 235, 235);
+    border:none;
+    padding: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.course{
+    height:300px;
+    width:500px;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.course0{
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 20px;
+    background: rgb(95, 213, 237);
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+}
+.course1{
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background: rgb(95, 213, 237);
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+}
+.course2{
+    margin: 10px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    background: rgb(95, 213, 237);
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+    position: relative;
+    left:60px;
+}
+.btn3{
+    cursor: pointer;
+    background: rgb(227, 124, 33);
+    padding: 5px;
+    position: relative;
+    top:70px;
+    left: -150px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border:1px solid orange;
+}
+.section1 {
+    height: 900px;
+    background: black;
+}
+.h1{
+    color:white;
+    position: relative;
+    top:30px;
+    text-align: center;
+}
+.video{
+    display: flex;
+}
+.vid{
+    padding-bottom:10px;
+    padding-left: 20px;
+    color:white;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+iframe{
+    border: 2px solid white;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+}
+.vid_title{
+    font-size: 20px;
+    border: 2px solid white;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+}
+.section2{
+    height:600px;
+}
+.our_course{
+    position: relative;
+    top:30px;
+    text-align: center;
+}
+.best_school{
+    padding-top: 20px;
+    color: rgb(169, 164, 164);
+    text-align: center;
+}
+.our {
+    display: flex;
+
+}
+.cou{
+    height:440px;
+    width:330px;
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    margin-left:70px;
+}
+.image1 {
+    overflow: hidden;
+}
+.image {
+    transition: 0.5s;
+}
+.image:hover {
+    transform: scale(1.2);
+}
+.p1{
+    color: gray;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.our1{
+    border: 1px solid black;
+    position: relative;
+    top:-8px;
+    margin-left:-1.3px ;
+}
+.our01{
+    border: 1px solid black;
+    position: relative;
+    top:11px;
+    margin-left:-1.3px ;
+}
+.cou1{
+    height:30px;
+    width:330px;
+    border: 1px solid black;
+    background: rgb(246, 240, 240);
+    text-align: center;
+    padding-top:15px;
+    overflow: hidden;
+}
+.img0{
+    border-radius:20px 20px 20px 20px;
+    height: 35px;
+    width:35px;
+    position: relative;
+    top: -7px;
+    left:-38px;
+    transition: 0.5s;
+}
+.img0:hover{
+    transform: scale(1.5);
+}
+.l1{
+    font-size: 22px;
+    color:rgba(0,0,0,.6);
+    position: relative;
+    top: -18px;
+    text-align: center;
+}
+.btn4{
+    padding:8px 20px 8px 20px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    position: relative;
+    top: -22px;
+    left:30px;
+}
+.section3{
+    display: flex;
+    margin-top: 40px;
+    height:820px;
+    background: url(../Images/study-image3.jpeg) no-repeat;
+    background-size: 100% 100%;
+}
+.Available{
+    padding:200px 100px 20px 100px;
+    text-align: center;
+}
+.cel{
+    display:flex;
+    text-align: center;
+}
+.Available label{
+    font-size:50px;
+    color: white;
+}
+.Available h3{
+    color: white;
+}
+.Available .cel{
+    padding: 20px 0 0 40px;
+}
+.days, .hour,
+.min, .sec
+{
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    border-radius: 6px;
+    margin:5px 0 0 30px;
+    cursor: pointer;
+    color:white;
+    position: relative;
+    left: -14px;
+    top: -30px;
+}
+.days{
+    background: #00d5ff;
+    display: inline-block;
+}
+.hour{
+    background: #ffa500;
+}
+.min{
+    background: #ff0015;
+}
+.sec{
+    background: #2b00ff;
+}
+.number {   
+    cursor: pointer;
+    transition: 1s;
+    height: 50px;
+    color: white;
+}
+.number:hover {
+    transform: rotate(360deg);
+}
+.form{
+    height:720px;
+    margin:0px 50px 50px 0;
+    border: 5px solid white;
+    padding: 50px;
+    background: white;
+    transform: scale(0.8);
+}
+.register {
+    background: rgb(191, 187, 187);
+    padding: 50px 100px 50px 100px;
+    position: relative;
+    top: -30px;
+    font-size: 30px ;
+}
+.d1{
+    position: relative;
+    left: -15px;
+}
+.input,
+.btn5,
+#Message {
+    border:none;
+    padding: 10px;
+    background-color: rgb(237, 231, 231);
+    border-bottom: 2px solid rgb(18, 17, 17);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+}
+
+#Message {
+    height:100px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.form1 .div{
+    margin: 30px;
+    padding: 10px;
+    background: rgba(244, 243, 243, 0.97);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(184, 182, 182);
+    color: red;
+}
+.form .div:hover {
+    color: white;
+    transition: 1s;
+    background: red;
+    border: none;
+}
+.btn5 {
+    background: #49b4d7;
+    color: white;
+    position: relative;
+    top: -10px;
+    border: none;
+}
+
+.section4{
+    background: rgb(116, 112, 112);
+    height: 350px;
+}
+
+.degree{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.degree_class{
+    margin: 50px;
+    padding-top: 10px;
+    text-align:center;
+    height: 300px;
+    margin-right:40px;
+    border-radius: 60px;
+}
+
+.h{
+    position: relative;
+    top: 10px;
+    color:white;
+}
+
+#p{
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    text-align: justify;
+    color: white;
+}
+.section5{
+    height: 880px;
+    background-color: #fefdfd;
+}
+.our_blog h1{
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-left: 500px;
+}
+.our_blog h2{
+    margin-left: 450px;
+}
+
+.section5 img{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left:-30px;
+    transition: 1s;
+    color: ;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#fff 0 0);
+    --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+     mask: var(--m);
+
+}
+.section5 img:hover {
+  --_i: 10%;
+}
+.section5 button{
+    border: none;
+    position: relative;
+    top: -10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+}
+.section5 button:hover{
+    background-color: rgba(0,0,0,.1);
+}
+.blog {
+    display: flex;
+}
+.bio {
+    height: 400px;
+    width: 300px;
+    margin-left: 85px;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(232, 183, 83);
+}
+.bio div{
+    height: 250px;
+    width: 250px;
+}
+
+.Doe {
+    height: 160px;
+    width: 370px;
+    margin-left: 10px;
+    padding-top: 40px;
+    border-radius: 10px;
+    background-color: rgb(226, 127, 65);
+}
+.Doe p{
+    padding:0 20px 0 40px;
+}
+.Doe h2{
+    padding-left: 120px;
+}
+
+.party {
+    height: 500px;
+    width: 300px;
+    margin-left: 10px;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(120, 218, 81);
+}
+.party h2{
+    margin-left: 10px;
+}
+.party div{
+    height: 250px;
+    width: 250px;
+}
+.party button {
+    margin-top: 80px;
+}
+.cook {
+    position: relative;
+    left: 83px;
+    top: -90px;
+    height: 250px;
+    width: 300px;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(96, 193, 214);
+}
+.cook label{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 20px;
+}
+.music {
+    height: 470px;
+    width: 300px;
+    position: relative;
+    left: 465px;
+    top: -580px;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(108, 128, 228);
+}
+.music div{
+    height: 250px;
+    width: 250px;
+}
+.music button {
+    margin-top: 50px;
+}
+.icon21 {
+    --_i: 10%;
+    height: 148px;
+    width: 300px;
+    position: relative;
+    left: 846px;
+    top: -752px;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(235, 85, 85);
+}
+.icon21 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: -10px;
+    top: 35px;
+    
+}
+.icon21 label{
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+}
+footer{
+    display:grid;
+    background: gray;
+    grid-template-columns:repeat(4,1fr);
+    gap: 50px;
+}
+
+.frame1,.frame2,.frame3,.frame4{
+    color:black;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+.frame2 {
+    margin-left: 25px;
+}
+.icon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-right: 20px;
+    font-size:30px;
+    color: white;
+}
+.frame3{
+    margin-left: 90px;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    top: -20px;
+}
+.frame3 .h{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.frame3 li{
+    margin-bottom: 10px;
+}
+.frame3 .list{
+    position: relative;
+    left: -10px;
+}
+hr {
+    width:100%;
+    height:3px;
+    position:relative;
+    top:-10px;
+    background: black;
+}

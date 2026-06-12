@@ -1,0 +1,208 @@
+html, body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* यह दाएं-बाएं वाले स्क्रॉल बार को छुपाएगा */
+}
+.header{
+    background-color: rgb(112, 107, 107);
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    position: fixed;
+    left: -10px;
+    top:0px;
+    width: 100%;
+    padding-left: 100px;
+    z-index: 10;
+}
+.back{
+    background-image: url(../Images/nature.webp);
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    height: auto;
+}
+.blur{
+    background-color: rgb(10, 9, 9, 0.4);
+}
+.logo{
+    color: rgb(206, 201, 201);
+    font-size: 30px;
+    margin-right: 200px;
+    font-style: arial;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.btn1{
+    cursor: pointer;
+    background: rgb(227, 124, 33);
+    padding: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(73, 73, 76);
+    color: white;
+    transition: 1s;
+    transform: scale(1.2);
+}
+ .section1 {
+    color: white;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.div1 p,.div1 h1,.div2 h1{
+    text-align: center;
+} 
+.div1, .div2 {
+    height: 200px;
+    width: 45%;
+}
+.div1 .d1,.div2 .d1{
+    height: 200px;
+    background-image: url(../Images/oip1.jpg) ;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div1 .d2, .div2 .d2 {
+    height: 200px;
+    margin-top: -67px; /* position: relative और top: -67px की जगह */
+    background-image: url(../Images/OIP.webp);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div1 h1,.div2 h1{
+    position: relative;
+    top:75px;
+}
+.div1 p{
+    position: relative;
+    top: 40px;
+    left: 85px;
+    width: 400px;
+}
+.div2 ul{
+    position: relative;
+    top: 40px;
+    left: 140px;
+}
+.section2 {
+    margin-top: 240px;
+    margin-bottom: 10px;
+    height: 350px;
+    margin-left: 150px;
+    width: 800px;
+    color: rgb(225, 139, 10);
+    border-radius: 100px;
+    padding:60px 50px 40px 50px;
+    background-image: url(../Images/back1.png) ;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex; 
+    gap: 20px; 
+    position: relative;
+    top: -29px;
+}
+.section2 ol{
+    color: #db2d2d;
+    margin-left: 100px;
+}
+.section2 .p1{
+    color: aqua;
+}
+.section2 .p2{
+    color: red;
+}
+.section2 .p3{
+    color: greenyellow;
+}
+.section2 .p4{
+    color: gold;
+}
+
+.section3 {
+    
+    padding: 20px 0 20px 20px;
+    background-color: yellowgreen;
+    display: flex;
+    width: 100%;
+    gap: 20px; 
+}
+
+.div5{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    transform: rotate(168deg);
+    background-color: aqua;
+}
+.div6{
+    height: 35px;
+    width: 200px;
+     line-height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    top: -36px;
+} 
+.footer{
+    display:grid;
+    margin: 0;
+    width: 100%;
+    background: gray;
+    grid-template-columns:repeat(3,1fr);
+    text-align: center;
+}
+.contant{
+    background: gray;
+    color:white;
+}
+.footer p{
+    color:rgb(240, 231, 231);
+}
+.icon {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;    
+}
+.footer input{
+    height: 28px;
+    width: 200px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.footer button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    background:orange;
+}
+footer button:hover{
+    color:aliceblue;
+    background-color: blue;
+}
+footer hr{
+    margin: 0px;
+    border: 3px solid black;  
+}
